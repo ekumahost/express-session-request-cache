@@ -1,0 +1,31 @@
+{
+  "name": "express-session-request-cache",
+  "version": "1.0.1",
+  "description": "cache http request result seamlessly on the browser to avoid over loading api with hits",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ekumahost/express-session-request-cache.git"
+  },
+  "keywords": [
+    "cache",
+    "express",
+    "nodejs",
+    "axios",
+    "session"
+  ],
+  "author": "Okokoh Ben(JsKing)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ekumahost/express-session-request-cache/issues"
+  },
+  "homepage": "https://github.com/ekumahost/express-session-request-cache#readme",
+  "dependencies": {
+    "express-session": "^1.17.0",
+    "express-session-rsdb": "^0.1.6",
+    "md5": "^2.2.1"
+  }
+}
